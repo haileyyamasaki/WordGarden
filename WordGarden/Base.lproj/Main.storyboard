@@ -72,7 +72,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4Q-3e-nie">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4Q-3e-nie">
                                 <rect key="frame" x="16" y="131" width="288" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="hGs-Xl-lY8"/>
@@ -162,9 +162,9 @@
                         <outlet property="guessLetterButton" destination="4x3-7B-wUd" id="nco-7U-Bge"/>
                         <outlet property="guessedLetterTextField" destination="RhW-pb-3cg" id="eAY-PU-YNq"/>
                         <outlet property="playAgainButton" destination="mbc-OV-1AN" id="wb1-Ve-YC1"/>
-                        <outlet property="wordBeingRevealed" destination="F4Q-3e-nie" id="zTq-FG-71M"/>
+                        <outlet property="wordBeingRevealedLabel" destination="F4Q-3e-nie" id="zTq-FG-71M"/>
                         <outlet property="wordsGuessedLabel" destination="3IS-7S-8Bl" id="mxp-Wg-qD0"/>
-                        <outlet property="wordsInGame" destination="XT6-uM-UUQ" id="xgW-CM-ATK"/>
+                        <outlet property="wordsInGameLabel" destination="XT6-uM-UUQ" id="xgW-CM-ATK"/>
                         <outlet property="wordsMissedLabel" destination="PWt-tU-Q5h" id="G8G-yc-Xql"/>
                         <outlet property="wordsRemainingLabel" destination="ImT-OB-hH5" id="INx-qi-saG"/>
                     </connections>
